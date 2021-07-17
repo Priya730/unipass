@@ -15,13 +15,13 @@ Run file
 node index (options)
 ```
 
-To create a symlink to run "passgen" from anywhere
+To create a symlink to run "unipass" from anywhere
 
 ```
 npm link
 
 # Now you can run
-passgen (options)
+unipass (options)
 
 # To remove symlink
 npm unlink
