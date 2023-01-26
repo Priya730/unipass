@@ -1,10 +1,12 @@
 {
   "name": "unipass",
   "version": "1.0.0",
-  "description": "Unique password generator",
+  "description": "Generate Unique password generator in your CLI",
   "main": "index.js",
   "preferGlobal": true,
-  "bin": "./index.js", 
+  "bin": {
+    "unipass": "index.js"
+  }, 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
